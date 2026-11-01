@@ -1,0 +1,6 @@
+{
+  "name": "Windsor Health Services",
+  "description": "A private fund investing in and providing advanced medical devices to countries across Asia for family offices and institutional investors.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

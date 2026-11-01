@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --color-navy-base: #060B17;
+  --color-navy-deep: #0B132B;
+  --color-navy-surface: #0E1A33;
+  --color-navy-card: #121F3D;
+  --color-gold-champagne: #C5A880;
+  --color-gold-bright: #D8BD97;
+  --color-gold-subtle: rgba(197, 168, 128, 0.16);
+}
+
+:root {
+  font-family: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  color-scheme: dark;
+}
+
+body {
+  background-color: #060B17;
+  color: #E2E8F0;
+  font-family: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+}
+
+.font-serif {
+  font-family: "Cormorant Garamond", Georgia, serif;
+}
+
+.font-sans {
+  font-family: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+}
+
+/* Subtle hairline border styling */
+.hairline-border {
+  border-color: rgba(197, 168, 128, 0.18);
+}
+
+.hairline-border-subtle {
+  border-color: rgba(255, 255, 255, 0.08);
+}
